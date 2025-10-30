@@ -1,9 +1,9 @@
 site_name: "mkdocs-shadcn"
-site_url: "https://ruzickahub.github.io/docss/"
+site_url: "https://ruzickahub.github.io/docs/"
 site_description: "Documentation that also shines"
 site_author: "Alban Siffer <31479857+asiffer@users.noreply.github.com>"
 dev_addr: "127.0.0.1:8080"
-repo_url: "https://github.com/RuzickaHub/docss"
+repo_url: "https://github.com/RuzickaHub/docs"
 theme:
   name: shadcn
   icon: null
@@ -28,7 +28,6 @@ plugins:
   - search
   - excalidraw
   - mkdocstrings
-  - print-site
 
 markdown_extensions:
   admonition:
