@@ -18,6 +18,7 @@ plugins:
   - search
   - excalidraw
   - mkdocstrings
+  - mkdocs-gen-nav-plugin
 
 markdown_extensions:
   admonition:
