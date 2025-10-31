@@ -1,4 +1,4 @@
-```md
+````md
 # Úvod do jazyka HTML
 
 HTML (HyperText Markup Language) je standardní značkovací jazyk pro tvorbu webových stránek.
@@ -15,17 +15,18 @@ HTML (HyperText Markup Language) je standardní značkovací jazyk pro tvorbu we
     <p>Toto je odstavec.</p>
 </body>
 </html>
-```
+````
 
 ## Klíčové značky
+
 - `<h1>` - nadpis
 - `<p>` - odstavec
 - `<a href="url">odkaz</a>` - hyperodkaz
 - `<img src="obrázek.jpg" alt="popis">` - obrázek
 
 Začněte editorem jako VS Code a prohlížečem.
-```
 
+````
 ```html
 <!DOCTYPE html>
 <html lang="cs">
@@ -37,28 +38,28 @@ Začněte editorem jako VS Code a prohlížečem.
 <body>
     <h1>Úvod do jazyka HTML</h1>
     <p>HTML (HyperText Markup Language) je standardní značkovací jazyk pro tvorbu webových stránek.</p>
-    
+
     <h2>Základní struktura</h2>
-    <pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-    &lt;title&gt;Nadpis stránky&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;h1&gt;Ahoj, světe!&lt;/h1&gt;
-    &lt;p&gt;Toto je odstavec.&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
-    
+    <pre><code><!DOCTYPE html>
+<html>
+<head>
+    <title>Nadpis stránky</title>
+</head>
+<body>
+    <h1>Ahoj, světe!</h1>
+    <p>Toto je odstavec.</p>
+</body>
+</html></code></pre>
+
     <h2>Klíčové značky</h2>
     <ul>
-        <li>&lt;h1&gt; - nadpis</li>
-        <li>&lt;p&gt; - odstavec</li>
-        <li>&lt;a href="url"&gt;odkaz&lt;/a&gt; - hyperodkaz</li>
-        <li>&lt;img src="obrázek.jpg" alt="popis"&gt; - obrázek</li>
+        <li><h1> - nadpis</li>
+        <li><p> - odstavec</li>
+        <li><a href="url">odkaz</a> - hyperodkaz</li>
+        <li><img src="obrázek.jpg" alt="popis"> - obrázek</li>
     </ul>
-    
+
     <p>Začněte editorem jako VS Code a prohlížečem.</p>
 </body>
 </html>
-```
+````
