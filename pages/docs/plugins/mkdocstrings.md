@@ -1,5 +1,5 @@
 ---
-title: Mkdocstrings
+title: Mkdocstrings21232
 alpha: true
 summary: Documentation from code
 external_links:
